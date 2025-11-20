@@ -3,7 +3,7 @@ pipeline{
 agent any  // any = any available server(current lab server) where jenkisn can run the pipleine
 
 tools{
-  maven 'mymaven'
+  maven 'Maven-3.9.11'
 }
 stages{
 stage('Checkout Code'){
